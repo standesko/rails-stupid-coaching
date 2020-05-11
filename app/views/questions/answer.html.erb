@@ -1,0 +1,21 @@
+<html>
+  <head>
+  </head>
+  <body>
+    <h2 class="banner"><strong>Stupid Coaching</strong></h2>
+
+    <div id="question">
+      <p>-You</p>
+      <%= @question %>
+    </div>
+
+    <div id="answer">
+      <p>-Your Coach</p>
+      <%= @answer %>
+    </div>
+
+    <div id="encore">
+      <%= link_to "New question", ask_path %>
+    </div>
+  </body>
+</html>
